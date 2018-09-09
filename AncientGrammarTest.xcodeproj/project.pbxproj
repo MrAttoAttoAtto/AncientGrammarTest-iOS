@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29323BE5214598AD0033A29F /* AncientGrammar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297FF2872144D6A800EFD412 /* AncientGrammar.framework */; };
 		298872242144A17600DDE583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298872232144A17600DDE583 /* AppDelegate.swift */; };
 		298872262144A17600DDE583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298872252144A17600DDE583 /* ViewController.swift */; };
 		298872292144A17600DDE583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298872272144A17600DDE583 /* Main.storyboard */; };
@@ -14,9 +15,24 @@
 		2988722E2144A17A00DDE583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2988722C2144A17A00DDE583 /* LaunchScreen.storyboard */; };
 		298872392144A17A00DDE583 /* AncientGrammarTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298872382144A17A00DDE583 /* AncientGrammarTestTests.swift */; };
 		298872442144A17A00DDE583 /* AncientGrammarTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298872432144A17A00DDE583 /* AncientGrammarTestUITests.swift */; };
+		298872542144A1C200DDE583 /* wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 298872532144A1C200DDE583 /* wrapper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		297FF2862144D6A800EFD412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 297FF26D2144AB7800EFD412 /* AncientGrammar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0A0973E1FE44E8BB454913E;
+			remoteInfo = AncientGrammar;
+		};
+		297FF2882144D7FD00EFD412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 297FF26D2144AB7800EFD412 /* AncientGrammar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F809DBDFC748609A4ED199;
+			remoteInfo = AncientGrammar;
+		};
 		298872352144A17A00DDE583 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 298872182144A17600DDE583 /* Project object */;
@@ -34,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		297FF26D2144AB7800EFD412 /* AncientGrammar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AncientGrammar.xcodeproj; path = "../../../../../Volumes/Attoa/Documents/CLion/AncientGrammar++/build/AncientGrammar.xcodeproj"; sourceTree = "<group>"; };
 		298872202144A17600DDE583 /* AncientGrammarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AncientGrammarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		298872232144A17600DDE583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		298872252144A17600DDE583 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,8 @@
 		2988723F2144A17A00DDE583 /* AncientGrammarTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AncientGrammarTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		298872432144A17A00DDE583 /* AncientGrammarTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AncientGrammarTestUITests.swift; sourceTree = "<group>"; };
 		298872452144A17A00DDE583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298872522144A1C100DDE583 /* AncientGrammarTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AncientGrammarTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		298872532144A1C200DDE583 /* wrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wrapper.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29323BE5214598AD0033A29F /* AncientGrammar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +94,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		297FF2812144D6A700EFD412 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				297FF2872144D6A800EFD412 /* AncientGrammar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		298872172144A17600DDE583 = {
 			isa = PBXGroup;
 			children = (
+				297FF26D2144AB7800EFD412 /* AncientGrammar.xcodeproj */,
 				298872222144A17600DDE583 /* AncientGrammarTest */,
 				298872372144A17A00DDE583 /* AncientGrammarTestTests */,
 				298872422144A17A00DDE583 /* AncientGrammarTestUITests */,
@@ -97,6 +126,7 @@
 		298872222144A17600DDE583 /* AncientGrammarTest */ = {
 			isa = PBXGroup;
 			children = (
+				298872512144A18400DDE583 /* C++ */,
 				298872232144A17600DDE583 /* AppDelegate.swift */,
 				298872252144A17600DDE583 /* ViewController.swift */,
 				298872272144A17600DDE583 /* Main.storyboard */,
@@ -125,6 +155,15 @@
 			path = AncientGrammarTestUITests;
 			sourceTree = "<group>";
 		};
+		298872512144A18400DDE583 /* C++ */ = {
+			isa = PBXGroup;
+			children = (
+				298872532144A1C200DDE583 /* wrapper.cpp */,
+				298872522144A1C100DDE583 /* AncientGrammarTest-Bridging-Header.h */,
+			);
+			path = "C++";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +178,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				297FF2892144D7FD00EFD412 /* PBXTargetDependency */,
 			);
 			name = AncientGrammarTest;
 			productName = AncientGrammarTest;
@@ -193,6 +233,7 @@
 				TargetAttributes = {
 					2988721F2144A17600DDE583 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					298872332144A17A00DDE583 = {
 						CreatedOnToolsVersion = 10.0;
@@ -215,6 +256,12 @@
 			mainGroup = 298872172144A17600DDE583;
 			productRefGroup = 298872212144A17600DDE583 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 297FF2812144D6A700EFD412 /* Products */;
+					ProjectRef = 297FF26D2144AB7800EFD412 /* AncientGrammar.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2988721F2144A17600DDE583 /* AncientGrammarTest */,
@@ -223,6 +270,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		297FF2872144D6A800EFD412 /* AncientGrammar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AncientGrammar.framework;
+			remoteRef = 297FF2862144D6A800EFD412 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2988721E2144A17600DDE583 /* Resources */ = {
@@ -258,6 +315,7 @@
 			files = (
 				298872262144A17600DDE583 /* ViewController.swift in Sources */,
 				298872242144A17600DDE583 /* AppDelegate.swift in Sources */,
+				298872542144A1C200DDE583 /* wrapper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +338,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		297FF2892144D7FD00EFD412 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AncientGrammar;
+			targetProxy = 297FF2882144D7FD00EFD412 /* PBXContainerItemProxy */;
+		};
 		298872362144A17A00DDE583 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2988721F2144A17600DDE583 /* AncientGrammarTest */;
@@ -432,15 +495,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2G2JLFPT5B;
+				HEADER_SEARCH_PATHS = "/Users/attoa/Documents/Xcode/Headers/**";
 				INFOPLIST_FILE = AncientGrammarTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-v";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrattoattoatto.AncientGrammarTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AncientGrammarTest/C++/AncientGrammarTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,15 +519,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2G2JLFPT5B;
+				HEADER_SEARCH_PATHS = "/Users/attoa/Documents/Xcode/Headers/**";
 				INFOPLIST_FILE = AncientGrammarTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-v";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrattoattoatto.AncientGrammarTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AncientGrammarTest/C++/AncientGrammarTest-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
